@@ -38,9 +38,19 @@
   font-weight: 400;
   line-height: 64px;
   margin-top: 18px;
+  display: flex;
 }
-.Weather .unitCelcius {
+.Weather .unitCelcius,
+.Weather .unitFahrenheit,
+.Weather .unitFeature {
   font-size: 16px;
   color: rgb(33, 33, 33);
-  margin-top: 18px;
+
+  position: relative;
+  top: -18px;
+}
+
+.Weather .unitCelcius a,
+.Weather .unitFahrenheit a {
+  text-decoration: none;
 }
