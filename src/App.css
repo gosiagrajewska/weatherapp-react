@@ -6,8 +6,10 @@
 .App p {
   font-size: 11px;
   margin: 10px 0;
+  text-align: center;
 }
 
 .App p a {
   text-decoration: none;
+  color: rgb(151, 126, 88);
 }
